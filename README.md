@@ -19,11 +19,17 @@ Seu serviço recebe uma chamada para determinar quais modalidades de empréstimo
 
 
 {
+
   "age": 26,
+  
   "cpf": "275.484.389-23",
+  
   "name": "Vuxaywua Zukiagou",
+  
   "income": 7000.00,
+  
   "location": "SP"
+  
 }
 
 Seu serviço deve retornar uma resposta contendo o nome do cliente e uma lista de empréstimos aos quais ele tem acesso, com os respectivos tipos e taxas de juros.
@@ -32,22 +38,39 @@ Seu serviço deve retornar uma resposta contendo o nome do cliente e uma lista d
 HTTP/1.1 200 Ok
 
 {
+
   "customer": "Vuxaywua Zukiagou",
+  
   "loans": [
+  
     {
+    
       "type": "PERSONAL",
+      
       "interest_rate": 4
+      
     },
+    
     {
+    
       "type": "GUARANTEED",
+      
       "interest_rate": 3
+      
     },
+    
     {
+    
       "type": "CONSIGNMENT",
+      
       "interest_rate": 2
+      
     }
+    
   ]
+  
 }
+
 Requisitos
 Conceder o empréstimo pessoal se o salário do cliente for igual ou inferior a R$ 3000.
 Conceder o empréstimo pessoal se o salário do cliente estiver entre R$ 3000 e R$ 5000, se o cliente tiver menos de 30 anos e residir em São Paulo (SP).
