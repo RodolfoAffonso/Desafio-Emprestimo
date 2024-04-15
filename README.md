@@ -14,7 +14,9 @@ Salário
 Localização
 Seu serviço recebe uma chamada para determinar quais modalidades de empréstimo uma pessoa tem acesso.
 
+
 [POST] {{host}}/customer-loans
+
 
 {
   "age": 26,
@@ -23,9 +25,12 @@ Seu serviço recebe uma chamada para determinar quais modalidades de empréstimo
   "income": 7000.00,
   "location": "SP"
 }
+
 Seu serviço deve retornar uma resposta contendo o nome do cliente e uma lista de empréstimos aos quais ele tem acesso, com os respectivos tipos e taxas de juros.
 
+
 HTTP/1.1 200 Ok
+
 {
   "customer": "Vuxaywua Zukiagou",
   "loans": [
