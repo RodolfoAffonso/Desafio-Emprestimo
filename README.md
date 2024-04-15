@@ -21,13 +21,9 @@ Seu serviço recebe uma chamada para determinar quais modalidades de empréstimo
 {
 
   "age": 26,
-  
   "cpf": "275.484.389-23",
-  
   "name": "Vuxaywua Zukiagou",
-  
   "income": 7000.00,
-  
   "location": "SP"
   
 }
@@ -66,10 +62,8 @@ HTTP/1.1 200 Ok
       "interest_rate": 2
       
     }
-    
-  ]
-  
-}
+   ] 
+  }
 
 Requisitos
 Conceder o empréstimo pessoal se o salário do cliente for igual ou inferior a R$ 3000.
